@@ -1,0 +1,245 @@
+# Tech.Care Patient Dashboard - Git Ignore File
+# This file specifies which files and directories should be ignored by Git
+
+# =============================================================================
+# OPERATING SYSTEM FILES
+# =============================================================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.tmp
+*.temp
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# =============================================================================
+# DEVELOPMENT ENVIRONMENT FILES
+# =============================================================================
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# =============================================================================
+# NODE.JS (if using build tools)
+# =============================================================================
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Build outputs
+dist/
+build/
+out/
+
+# =============================================================================
+# PYTHON (if using Python server)
+# =============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# =============================================================================
+# LOGS AND TEMPORARY FILES
+# =============================================================================
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# =============================================================================
+# ENVIRONMENT AND CONFIGURATION
+# =============================================================================
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Configuration files with sensitive data
+config.json
+secrets.json
+*.key
+*.pem
+*.p12
+*.pfx
+
+# =============================================================================
+# BACKUP AND ARCHIVE FILES
+# =============================================================================
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*.save
+
+# Archive files (keep only the main project archive)
+*.zip
+*.tar.gz
+*.rar
+*.7z
+!TechCare-Patient-Dashboard-Complete.zip
+
+# =============================================================================
+# CACHE AND TEMPORARY FILES
+# =============================================================================
+
+# Cache directories
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# =============================================================================
+# BROWSER AND TESTING
+# =============================================================================
+
+# Browser testing
+.selenium/
+test-results/
+playwright-report/
+test-results.xml
+
+# =============================================================================
+# PROJECT SPECIFIC
+# =============================================================================
+
+# Keep the main application files
+!index.html
+!css/
+!js/
+!Assets/
+!README.md
+
+# Ignore any additional zip files except the main one
+patient-dashboard-*.zip
+patient-dashboard-enhanced.zip
+patient-dashboard-submission.zip
+techcare-patient-dashboard.zip
+
+# =============================================================================
+# COMMENTS AND NOTES
+# =============================================================================
+
+# This .gitignore file is specifically designed for the Tech.Care Patient Dashboard
+# It ensures that only the essential application files are tracked while ignoring
+# system files, development artifacts, and temporary files that shouldn't be in version control.
+#
+# The main application files that WILL be tracked:
+# - index.html (main entry point)
+# - css/styles.css (application styles)
+# - js/app.js (application logic)
+# - Assets/ (all application assets)
+# - README.md (project documentation)
+# - TechCare-Patient-Dashboard-Complete.zip (main project archive)
