@@ -10,6 +10,7 @@ A modern, responsive patient management dashboard built with vanilla JavaScript,
 
 ## 📋 Table of Contents
 
+- [Repository](#-repository)
 - [Features](#-features)
 - [Screenshots](#-screenshots)
 - [Technology Stack](#-technology-stack)
@@ -21,6 +22,14 @@ A modern, responsive patient management dashboard built with vanilla JavaScript,
 - [Development](#-development)
 - [Contributing](#-contributing)
 - [License](#-license)
+
+## 🔗 Repository
+
+**GitHub Repository**: [https://github.com/fniyonshuti/patient-web-application](https://github.com/fniyonshuti/patient-web-application)
+
+This project is hosted on GitHub and can be cloned, forked, or contributed to directly from the repository.
+
+---
 
 ## ✨ Features
 
@@ -98,7 +107,7 @@ The application integrates with the Coalition Technologies Patient Data API for 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/patient-web-application.git
+   git clone https://github.com/fniyonshuti/patient-web-application.git
    cd patient-web-application
    ```
 
@@ -204,7 +213,7 @@ You can customize various aspects of the application:
 
 1. **Clone and setup**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/fniyonshuti/patient-web-application.git
    cd patient-web-application
    ```
 
@@ -310,7 +319,7 @@ If you encounter any issues or have questions:
 
 **Built with ❤️ for healthcare professionals**
 
-[![Tech.Care](https://img.shields.io/badge/Tech.Care-Patient%20Dashboard-01F0D0?style=for-the-badge&logo=health&logoColor=white)](https://github.com/your-username/patient-web-application)
+[![Tech.Care](https://img.shields.io/badge/Tech.Care-Patient%20Dashboard-01F0D0?style=for-the-badge&logo=health&logoColor=white)](https://github.com/fniyonshuti/patient-web-application)
 
 *Empowering healthcare through technology*
 
